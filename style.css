@@ -1,0 +1,44 @@
+#body {
+    background: lightskyblue;
+}
+
+#container {
+    background-color: palevioletred;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    margin-top: 50px;
+    padding-top: 15px;
+    border-radius: 10%;
+}
+
+#snap {
+    background-color: lightskyblue;
+    border-radius: 10%;
+    border-width: 0px;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#snap:hover {
+    background-color: powderblue;
+    border-width: 7px;
+    border-style: solid;
+    border-color: black;
+    font-weight: bolder;
+}
+
+canvas {
+    animation-name: firstAnima ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 20px solid darkslategray;
+    border-radius: 20%;
+}
+
+@keyframes firstAnima {
+    from{box-shadow: 1px 1px 38px lightseagreen;}
+    to{box-shadow: 1px 1px 38px green;}
+}
